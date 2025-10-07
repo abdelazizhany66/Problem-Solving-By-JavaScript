@@ -11,7 +11,7 @@
 
 
 function sumPositiveValue(arr){
-  initValue = 0 //start value        //sorte value 
+  initValue = 0 //start value        //store value 
  return arr.filter((i)=> i>0).reduce((accumulator, currentValue)=>accumulator+ currentValue ,initValue)
 }
 console.log(sumPositiveValue([1,2,-2,-2]))
