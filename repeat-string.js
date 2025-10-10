@@ -1,5 +1,5 @@
 function repeatStr(number,str){
-  return str.repeat(9)
+  return str.repeat(number)
   // let = stringVal = ''
   // for(let i=0; i<number; i++){
   //   stringVal += str
