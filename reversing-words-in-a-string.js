@@ -1,3 +1,5 @@
 function reversingWords(string) {
-  return string.split(' ').revers().join(' ');
+  return string.split(' ').reverse().join(' ');
 }
+
+console.log(reversingWords('hello world'));
