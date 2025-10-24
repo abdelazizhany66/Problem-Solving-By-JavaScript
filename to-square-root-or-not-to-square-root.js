@@ -7,7 +7,7 @@ function squareOrSquareRoot(arr) {
   resultArr = [];
   for (let i = 0; i < arr.length; i++) {
     if (Number.isInteger(Math.sqrt(arr[i]))) {
-      resultArr.push(Math.sqrt(arr[i]));
+      resultArr.push(Math.sqrt(arr[i])); //if have sqrt return number else number * number
     } else {
       resultArr.push(arr[i] * arr[i]);
     }
